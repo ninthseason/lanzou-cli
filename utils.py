@@ -40,7 +40,7 @@ def upload_file(lzc: LanZouCloud, path, silent=True):
 
 def extract_durl(lzc: LanZouCloud, fid):
     fd = lzc.get_file_info_by_id(fid)
-    return [fd.url, fd.durl]
+    return [fd.url, fd.pwd, fd.durl]
 
 
 def eprint(*args, **kwargs):

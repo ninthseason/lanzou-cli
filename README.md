@@ -1,6 +1,6 @@
 > ### lanzou/ 来自于 https://github.com/zaxtyson/LanZouCloud-API
 > 
-> ### 但由于存在致命BUG https://github.com/zaxtyson/LanZouCloud-API/issues/110 且仍未修复，故暂且将修复版置于仓库内，待修复后再添加至 requirements.txt
+> ### 但由于存在致命BUG [#110](https://github.com/zaxtyson/LanZouCloud-API/issues/110),[#109](https://github.com/zaxtyson/LanZouCloud-API/issues/109) 且仍未修复，故暂且将修复版置于仓库内，待修复后再添加至 requirements.txt
 
 ---
 
@@ -8,7 +8,7 @@
 
 仅支持上传文件：`python lanzou-cli.py <filename>`
 
-上传成功将返回`0`，并于标准输出打印`<文件分享url> <下载直链>`
+上传成功将返回`0`，并于标准输出打印`<文件分享url> <文件密码> <下载直链>`
 
 遇到任何错误将返回错误码：
 
